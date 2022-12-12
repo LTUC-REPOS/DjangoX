@@ -31,7 +31,7 @@ class CountryCreateView(CreateView):
 class CountryUpdateView(UpdateView):
     template_name ="countries/country_update.html"
     model = Country
-    fields = ["name,","author","desc","captial"]
+    fields = ["name","desc","captial"]
 
 
 class CountryDeleteView(DeleteView):
